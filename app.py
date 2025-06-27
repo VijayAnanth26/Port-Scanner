@@ -3,14 +3,9 @@ import socket
 from concurrent.futures import ThreadPoolExecutor
 import pandas as pd
 import time
-import plotly.express as px
 import plotly.graph_objects as go
-import base64
 from fpdf import FPDF
 import datetime
-import os
-import io
-import requests
 import ipaddress
 import re
 

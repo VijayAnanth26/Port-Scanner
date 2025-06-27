@@ -85,8 +85,8 @@ streamlit run app.py
 ## 📋 Installation
 
 ```bash
-# Install required packages
-pip install streamlit pandas plotly fpdf
+# Install required packages using requirements.txt
+pip install -r requirements.txt
 ```
 
 ## 📄 Reports
@@ -120,6 +120,7 @@ The project is organized as follows:
 
 - **Scanner.py**: Core scanning functionality and CLI interface
 - **app.py**: Streamlit web interface that imports core functions from Scanner.py
+- **requirements.txt**: Dependencies required for the project
 
 This modular design reduces code duplication and ensures consistency between the CLI and web interfaces.
 
